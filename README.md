@@ -1,57 +1,52 @@
+##File Separator 🚀
+A simple and efficient Java utility to organize files in a directory into categorized subfolders based on their extensions. This tool helps keep your folders clean and organized, demonstrating Java's file-handling capabilities.
 
-Here's a detailed and professional README.md for your FileSeparator project:
+✨ Features
+Automatic File Organization:
+Files are moved into subfolders like PDF, IMAGE, DOCUMENT, TEXT, and VIDEO based on their extensions.
 
-File Separator
-A File Separator utility built in Java that helps organize files in a specified directory into categorized subfolders based on their extensions. This project demonstrates the use of Java I/O operations, directory management, and user interaction via the console.
+Dynamic Input:
+Accepts the directory path from the user at runtime, making it flexible to use with any folder.
 
-Features
-Automatic File Categorization:
-Organizes files into subfolders like PDF, IMAGE, DOCUMENT, TEXT, and VIDEO based on file extensions.
-
-Dynamic Directory Input:
-Accepts the directory path from the user via the console, making it flexible for any folder structure.
-
-Folder Creation:
-Automatically creates subfolders (PDF, IMAGE, DOCUMENT, etc.) if they do not exist.
+Automatic Folder Creation:
+Subfolders (PDF, IMAGE, etc.) are created if they don’t already exist.
 
 File Relocation:
-Moves files to the respective subfolders, ensuring a clean and organized directory structure.
+Moves files to appropriate subfolders for a cleaner structure.
 
-Support for Multiple File Types:
-Handles popular file extensions such as .pdf, .docx, .jpg, .txt, .mp4, and .mkv.
+Supported Extensions:
+Handles popular formats including .pdf, .docx, .jpg, .txt, .mp4, and .mkv.
 
-Error Handling:
-Gracefully handles cases like invalid directory paths or missing permissions.
-
-Technologies Used
+🛠️ Technologies Used
 Language: Java
-Java Features Used: File I/O, Scanner, Loops, and Switch Case Statements.
-How to Use
+Java Features: File I/O, Directory Management, and User Input Handling.
+🚀 Getting Started
 Prerequisites
-Ensure you have Java JDK 8+ installed on your system.
-Set up the JAVA_HOME and add bin to your system's PATH.
-Steps to Run
-Clone or download the repository.
-Navigate to the directory containing the FileSeparator.java file.
-Compile the Java file:
+Java Development Kit (JDK 8+).
+Set up the JAVA_HOME environment variable and ensure the bin directory is added to your system's PATH.
+Installation & Usage
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/FileSeparator.git
+cd FileSeparator
+Compile the Code:
+
 bash
 Copy code
 javac JAVA/Project/FileSeparator.java
-Run the program:
+Run the Application:
+
 bash
 Copy code
 java JAVA.Project.FileSeparator
-Enter the full directory path when prompted. Example:
+Follow the Prompt: Enter the full path of the directory to organize. Example:
+
 mathematica
 Copy code
 Enter Directory Path: C:\Users\YourName\Downloads
-The program will organize the files in the specified directory into the following subfolders:
-PDF
-IMAGE
-DOCUMENT
-TEXT
-VIDEO
-Example Output
+🖼️ Example Output
 Input:
 mathematica
 Copy code
@@ -64,7 +59,7 @@ IMAGE DONE
 DOCX DONE
 TXT DONE
 VIDEO DONE
-Folder Structure After Execution:
+Resulting Folder Structure:
 css
 Copy code
 TestFolder
@@ -83,5 +78,5 @@ TestFolder
 │   └── notes.txt
 │
 └── VIDEO
-    ├── video1.mp4
+├── video1.mp4
     └── video2.mkv
